@@ -153,7 +153,26 @@ input {
 .botao:hover {
   background-color: #FFD700;
   color: #3c3c97;
-  padding: 15px;
+  padding: 12px 15px;
   font-size: 19px;
   transition: 0.5s;
+}
+
+/* Fim da Section 2 */
+
+.rodape {
+  background-color: #FFD700;
+  border-top: solid 1px #3c3c97;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.rodape p {
+  text-align: center;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: #3c3c97;
 }
