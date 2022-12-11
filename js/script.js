@@ -22,7 +22,7 @@ function calculaNota() {
   const avaliacao1 = (trab1 + trab2) / 2; // Cálculo da Avaliação 1
 
   /* Recebe valores dos inputs da AVALIAÇÃO 2 e 3 */
-  const avaliacao2 = parseFloat(document.getElementById("prova1").value.replace(',', '.'));
+  let avaliacao2 = parseFloat(document.getElementById("prova1").value.replace(',', '.'));
   const avaliacao3 = parseFloat(document.getElementById("prova2").value.replace(',', '.'));
 
   const statusNota = document.getElementById("statusNota"); // Recebe ID statusNota
@@ -30,7 +30,7 @@ function calculaNota() {
   let notaFinal = 0; // Nota final começando em 0.
 
   /* Verifica se a nota da Avaliação 3 é maior que a nota da Avaliação 2. */
-  if (avaliacao3 === 10 || avaliacao3 > avaliacao2) {
+  if (avaliacao3 > avaliacao2) {
       avaliacao2 = avaliacao3;
   }
   // Instruções realizadas caso a Avaliação 1 NÃO tenha sido ZERADA.
