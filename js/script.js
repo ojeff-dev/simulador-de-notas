@@ -41,12 +41,14 @@ function calculaNota() {
           document.getElementById("resultado").innerHTML = "Sua nota: " + notaFinal.toFixed(2);
           resultado.style.color = "green";
           statusNota.style.color = "green";
+          statusNota.style.backgroundColor = '#C0C0C0';
           statusNota.innerHTML = "Aprovado!"
       
       } else {
           document.getElementById("resultado").innerHTML = "Sua nota: " + notaFinal.toFixed(2);
           resultado.style.color = "red";
           statusNota.style.color = "red";
+          statusNota.style.backgroundColor = '#C0C0C0';
           statusNota.innerHTML = "Reprovado! Sua nota é menor que 6."
       }
       // Instruções realizadas caso a Avaliação 1 tenha sido ZERADA.
@@ -54,6 +56,7 @@ function calculaNota() {
       notaFinal = (avaliacao2 * 0.6) / 2;
       document.getElementById("resultado").innerHTML = "Sua nota: " + notaFinal.toFixed(2);
           statusNota.style.color = "red";
+          statusNota.style.backgroundColor = '#C0C0C0';
           statusNota.innerHTML = "Reprovado! Você ZEROU a Avaliação 1."
   } else {
       resultado.style.color = "red";

@@ -30,14 +30,14 @@
         <div class="divAva">
           <h3 class="tituloAvaliacao">Avaliação 1</h3>
           <label for="trabalho1" class="labelAvaliacao">Nota do trabalho 1:</label>
-          <input type="text" id="trabalho1" name = 'trabalho1' maxlength="3" placeholder="Exemplo: 100% = 10">
+          <input type="number" id="trabalho1" name = 'trabalho1' maxlength="3" placeholder="Exemplo: 100% = 10">
 
           <label for="trabalho2" class="labelAvaliacao">Nota do trabalho 2:</label>
-          <input type="text" id="trabalho2" name = 'tabalho2' maxlength="3" placeholder="Exemplo: 75% = 7.5">
+          <input type="number" id="trabalho2" name = 'tabalho2' maxlength="3" placeholder="Exemplo: 75% = 7.5">
 
           <h3 class="tituloAvaliacao">Avaliação 2</h3>
           <label for="prova1" class="labelAvaliacao">Nota da Avaliação 2:</label>
-          <input type="text" id="prova1" name= 'prova1' maxlength="3" placeholder="Exemplo: 10">
+          <input type="number" id="prova1" name= 'prova1' maxlength="3" placeholder="Exemplo: 10">
         </div>
 
         <div class="divAva">
@@ -59,7 +59,7 @@
           </div>
           <p id="resultado">
             Sua nota final é:
-            <span id="statusNota"></span>
+            <div id="statusNota"></div>
           </p>
         </div>
       </form>
