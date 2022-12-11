@@ -58,3 +58,102 @@ body {
   border-bottom: solid 1px #000;
 }
 /* Fim da Section 1 */
+
+/* Início da Section 2 */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divAva {
+  width: 100%;
+  text-align: center;
+}
+
+.tituloAvaliacao {
+  background-color: #3c3c97;
+  color: #FFD700;
+  margin: 5px 0 0 0;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.labelAvaliacao {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  background-color: #C0C0C0;
+  color: #000;
+  margin: 5px 0 10px 0;
+  padding: 5px;
+  display: block;
+}
+
+input {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border: solid 1px #000;
+  border-radius: 5px;
+}
+
+.pergunta {
+  background-color: #3c3c97;
+  color: #FFD700;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+}
+
+.inputsRadioAva3 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.choice {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#campoOpcional {
+  width: 100%;
+  text-align: center;
+  /* display: none; */
+}
+
+.notaFinal {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.botaoCalcular {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.botao {
+  background-color: #3c3c97;
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #FFD700;
+  color: #3c3c97;
+  padding: 15px;
+  font-size: 19px;
+  transition: 0.5s;
+}

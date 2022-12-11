@@ -25,6 +25,46 @@
       </div>
     </section> <!-- Fim da Section 1 -->
 
+    <section> <!-- Início da Section 2 -->
+      <form class="formulario">
+        <div class="divAva">
+          <h3 class="tituloAvaliacao">Avaliação 1</h3>
+          <label for="trabalho1" class="labelAvaliacao">Nota do trabalho 1:</label>
+          <input type="text" id="trabalho1" name = 'trabalho1' maxlength="3" placeholder="Exemplo: 100% = 10">
+
+          <label for="trabalho2" class="labelAvaliacao">Nota do trabalho 2:</label>
+          <input type="text" id="trabalho2" name = 'tabalho2' maxlength="3" placeholder="Exemplo: 75% = 7.5">
+
+          <h3 class="tituloAvaliacao">Avaliação 2</h3>
+          <label for="prova1" class="labelAvaliacao">Nota da Avaliação 2:</label>
+          <input type="text" id="prova1" name= 'prova1' maxlength="3" placeholder="Exemplo: 10">
+        </div>
+
+        <div class="divAva">
+          <p class="pergunta">Fez avaliação 3 ?</p>
+          <div class="inputsRadioAva3">
+            <input type="radio" id="respostaPositiva" name = 'radioCheck' value="sim" /><span class="choice">Sim</span>
+            <input type="radio" id="respostaNegativa" name = 'radioCheck' value="nao" checked /><span class="choice">Não</span>
+          </div>
+        </div>
+        <div id="campoOpcional"> <!-- Campo Opcional Oculto Início -->
+          <h3 class="tituloAvaliacao">Avaliação 3</h3>
+          <label for="prova2" class="labelAvaliacao">Nota da Avaliação 3:</label>
+          <input type="text" id="prova2" name = 'prova2' maxlength="3" placeholder="Exemplo: 8.5">
+        </div> <!-- Campo Opcional Oculto Final -->
+
+        <div class="notaFinal">
+          <div class="botaoCalcular">
+            <input type="button" class="botao" value="calcular">
+          </div>
+          <p id="resultado">
+            Sua nota final é:
+            <span id="statusNota"></span>
+          </p>
+        </div>
+      </form>
+    </section> <!-- Fim da Section 2 -->
+
   </main>
 
   <script src="./js/script.js"></script>
