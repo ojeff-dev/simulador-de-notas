@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.box {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.logoUva {
+  background-color: #3c3c97;
+  padding: 20px;
+  text-align: center;
+}
+
+.logoUva img {
+  width: 400px;
+}
