@@ -117,6 +117,12 @@ input {
   margin: 0 auto;
 }
 
+.inputsRadioAva3 input {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+}
+
 .choice {
   font-size: 18px;
   font-weight: bold;
@@ -158,6 +164,25 @@ input {
   transition: 0.5s;
 }
 
+#resultado {
+  background-color: #C0C0C0;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 10px;
+}
+
+#statusNota {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
 /* Fim da Section 2 */
 
 .rodape {
